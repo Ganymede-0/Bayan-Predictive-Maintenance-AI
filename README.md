@@ -43,8 +43,8 @@ The proposed Time-Series Transformer demonstrated superior convergence and predi
 | Baseline LSTM | 10.71 | ~0.005s | Legacy |
 | **Proposed Transformer** | **9.74** | **~0.006s** | **Production** |
 
-*![RUL Degradation Curve](<img width="3551" height="1753" alt="presentation_rul_curve_engine_3" src="https://github.com/user-attachments/assets/0bf67634-4586-480b-a887-2b09a9668c40" />
-)*
+<img width="3551" height="1753" alt="presentation_rul_curve_engine_3" src="https://github.com/user-attachments/assets/c41150ef-5dfa-43e9-a588-4d5bddff4600" />
+
 > *Figure 1: 30-cycle Exponential Moving Average (EMA) degradation trajectory. The Transformer accurately converges with the True RUL during the critical end-of-life boundary phase.*
 
 ### 2. Generative Report Performance (NLG Metrics)
@@ -58,8 +58,7 @@ The fine-tuned LLM was evaluated against a hardcoded, deterministic Python `if/e
 
 *Note: The drop in BLEU-4 is an intended architectural feature, confirming the LLM has learned diverse, human-like semantic phrasing rather than strictly memorizing n-gram templates, all while maintaining a >0.91 BERTScore (ensuring zero hallucination of engineering facts).*
 
-*![Ablation Heatmap](<img width="1429" height="726" alt="ablation_heatmap" src="https://github.com/user-attachments/assets/93e6825d-b8f8-4cfb-83ca-d11a76c6da1b" />
-)*
+<img width="1429" height="726" alt="ablation_heatmap" src="https://github.com/user-attachments/assets/f408f8aa-ac1a-46b4-bcd8-a3278a0deff6" />
 > *Figure 2: Ablation study confirming the necessity of QLoRA fine-tuning and Transformer encoder integration. Zero-shot base models fail to format industrial reports correctly.*
 
 ---
