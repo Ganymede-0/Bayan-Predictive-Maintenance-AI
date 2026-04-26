@@ -1,0 +1,332 @@
+[
+  {
+    "features": {
+      "engine_id": 1,
+      "cycle": 30,
+      "rul_predicted": 123.4,
+      "rul_true": 113.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.67311030626297
+        ],
+        [
+          "Bleed enthalpy",
+          0.6001845002174377
+        ],
+        [
+          "Corrected core speed",
+          0.5309426784515381
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": 0.218,
+        "LPC outlet temperature": -0.783,
+        "HPC outlet temperature": -0.885,
+        "HPC outlet pressure": 0.827,
+        "Physical core speed": -0.806
+      }
+    },
+    "baseline_report": "MAINTENANCE REPORT \u2014 Engine Unit 1, Cycle 30\nSeverity Level: LOW\n\nROUTINE UPDATE: This equipment continues to operate satisfactorily with approximately 123 cycles of projected remaining life. No anomalous trends have been identified. Routine monitoring protocols remain appropriate.\n\nSensor Anomaly Analysis:\n  - Fan inlet temperature [0.67]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy [0.60]: showing moderate deviation from expected values\n  - Corrected core speed: showing moderate deviation from expected values (anomaly score: 0.53)\n\nPrescribed Next Steps:\n  1. No action items generated. Unit remains in good operational health.\n  2. Standard monitoring protocols are sufficient.",
+    "proposed_report": "MAINTENANCE REPORT \u2014 Engine Unit 1, Cycle 30\nRisk Classification: LOW\n\nROUTINE UPDATE: This equipment continues to operate satisfactorily with approximately 123 cycles of projected remaining life. No anomalous trends have been identified. Routine monitoring protocols remain appropriate.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.67]: trending away from nominal operating conditions\n  - Bleed enthalpy [0.60]: showing moderate deviation from expected values\n  - Corrected core speed [0.53]: exhibiting gradual but consistent departure from expected levels\n\nAction Items:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 1, Operational Cycle 30\nPriority Classification: LOW\n\nThis unit is operating within expected parameters with approximately 123 cycles of estimated remaining useful life. All monitored indicators are within acceptable ranges. Standard monitoring protocols are sufficient at this time.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.67), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.60), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.53), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 3,
+      "cycle": 110,
+      "rul_predicted": 108.6,
+      "rul_true": 85.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Corrected core speed",
+          0.7136932015419006
+        ],
+        [
+          "Static pressure at HPC outlet",
+          0.6822487115859985
+        ],
+        [
+          "Bleed enthalpy",
+          0.6327285170555115
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.162,
+        "LPC outlet temperature": -1.315,
+        "HPC outlet temperature": 0.067,
+        "HPC outlet pressure": -0.302,
+        "Physical core speed": -0.838
+      }
+    },
+    "baseline_report": "CONDITION REPORT \u2014 Unit 3, Operational Cycle 110\nRisk Classification: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 109 cycles. No immediate action is required. Standard monitoring continues.\n\nSensor Anomaly Analysis:\n  - Corrected core speed [0.71]: registering values well outside the normal envelope\n  - Static pressure at HPC outlet [0.68]: trending away from nominal operating conditions\n  - Bleed enthalpy: trending away from nominal operating conditions (anomaly score: 0.63)\n\nMaintenance Recommendations:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "proposed_report": "MAINTENANCE ADVISORY \u2014 Unit 3 at Cycle 110\nPriority: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 109 cycles. No immediate action is required. Standard monitoring continues.\n\nAnomalous Sensor Readings:\n  - Corrected core speed [0.71]: exhibiting notable departure from expected operating range\n  - Static pressure at HPC outlet [0.68]: trending away from nominal operating conditions\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.63)\n\nRecommended Actions:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 3, Operational Cycle 110\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 109 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Corrected core speed: exhibits significant deviation (0.71), indicating potential component degradation\n  - Static pressure at HPC outlet: shows moderate deviation (0.68), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.63), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 5,
+      "cycle": 39,
+      "rul_predicted": 122.3,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.6746799945831299
+        ],
+        [
+          "Bleed enthalpy",
+          0.6083105206489563
+        ],
+        [
+          "Corrected core speed",
+          0.5578718185424805
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.342,
+        "LPC outlet temperature": 0.055,
+        "HPC outlet temperature": -0.007,
+        "HPC outlet pressure": 0.511,
+        "Physical core speed": -0.779
+      }
+    },
+    "baseline_report": "EQUIPMENT ASSESSMENT \u2014 Engine 5, Cycle 39\nCondition Category: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 122 cycles. No immediate action is required. Standard monitoring continues.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.67]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy [0.61]: showing moderate deviation from expected values\n  - Corrected core speed [0.56]: displaying measurable drift from baseline readings\n\nAction Items:\n  1. Maintain standard inspection and reporting schedule.\n  2. No corrective or preventive action is needed at this time.",
+    "proposed_report": "MAINTENANCE ADVISORY \u2014 Unit 5 at Cycle 39\nCondition Category: LOW\n\nNORMAL OPERATION: All monitored parameters for this unit are within expected ranges. With an estimated 122 cycles of remaining life, no maintenance action is necessary at this time.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.67]: trending away from nominal operating conditions\n  - Bleed enthalpy: displaying measurable drift from baseline readings (anomaly score: 0.61)\n  - Corrected core speed: showing moderate deviation from expected values (anomaly score: 0.56)\n\nPrescribed Next Steps:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 5, Operational Cycle 39\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 122 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.67), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.61), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.56), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 6,
+      "cycle": 73,
+      "rul_predicted": 122.3,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.6767959594726562
+        ],
+        [
+          "Bleed enthalpy",
+          0.6146954298019409
+        ],
+        [
+          "Corrected core speed",
+          0.5650632381439209
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.562,
+        "LPC outlet temperature": 0.272,
+        "HPC outlet temperature": -0.285,
+        "HPC outlet pressure": 0.929,
+        "Physical core speed": -0.542
+      }
+    },
+    "baseline_report": "CONDITION REPORT \u2014 Unit 6, Operational Cycle 73\nCondition Category: LOW\n\nROUTINE UPDATE: This equipment continues to operate satisfactorily with approximately 122 cycles of projected remaining life. No anomalous trends have been identified. Routine monitoring protocols remain appropriate.\n\nFlagged Sensor Channels:\n  - Fan inlet temperature: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.68)\n  - Bleed enthalpy [0.61]: trending away from nominal operating conditions\n  - Corrected core speed: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.57)\n\nAction Items:\n  1. Maintain standard inspection and reporting schedule.\n  2. No corrective or preventive action is needed at this time.",
+    "proposed_report": "CONDITION REPORT \u2014 Unit 6, Operational Cycle 73\nRisk Classification: LOW\n\nNORMAL OPERATION: All monitored parameters for this unit are within expected ranges. With an estimated 122 cycles of remaining life, no maintenance action is necessary at this time.\n\nAnomalous Sensor Readings:\n  - Fan inlet temperature [0.68]: displaying measurable drift from baseline readings\n  - Bleed enthalpy: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.61)\n  - Corrected core speed [0.57]: showing moderate deviation from expected values\n\nAction Items:\n  1. Continue operating under normal procedures.\n  2. Next scheduled condition review will occur per the standard maintenance calendar.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 6, Operational Cycle 73\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 122 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.68), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.61), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.57), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 7,
+      "cycle": 100,
+      "rul_predicted": 122.4,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.665603518486023
+        ],
+        [
+          "Bleed enthalpy",
+          0.6157987713813782
+        ],
+        [
+          "Corrected core speed",
+          0.5678063035011292
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.902,
+        "LPC outlet temperature": -1.175,
+        "HPC outlet temperature": -0.6,
+        "HPC outlet pressure": 0.488,
+        "Physical core speed": 0.082
+      }
+    },
+    "baseline_report": "MAINTENANCE REPORT \u2014 Engine Unit 7, Cycle 100\nPriority: LOW\n\nNORMAL OPERATION: All monitored parameters for this unit are within expected ranges. With an estimated 122 cycles of remaining life, no maintenance action is necessary at this time.\n\nAnomalous Sensor Readings:\n  - Fan inlet temperature: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.67)\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.62)\n  - Corrected core speed: showing moderate deviation from expected values (anomaly score: 0.57)\n\nAction Items:\n  1. No action items generated. Unit remains in good operational health.\n  2. Standard monitoring protocols are sufficient.",
+    "proposed_report": "EQUIPMENT ASSESSMENT \u2014 Engine 7, Cycle 100\nCondition Category: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 122 cycles. No immediate action is required. Standard monitoring continues.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.67]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.62)\n  - Corrected core speed [0.57]: trending away from nominal operating conditions\n\nPrescribed Next Steps:\n  1. Maintain standard inspection and reporting schedule.\n  2. No corrective or preventive action is needed at this time.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 7, Operational Cycle 100\nPriority Classification: LOW\n\nThis unit is operating within expected parameters with approximately 122 cycles of estimated remaining useful life. All monitored indicators are within acceptable ranges. Standard monitoring protocols are sufficient at this time.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.67), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.62), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.57), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 8,
+      "cycle": 72,
+      "rul_predicted": 123.1,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.6772772669792175
+        ],
+        [
+          "Bleed enthalpy",
+          0.6081640720367432
+        ],
+        [
+          "Corrected core speed",
+          0.5428940653800964
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.882,
+        "LPC outlet temperature": -0.849,
+        "HPC outlet temperature": -0.466,
+        "HPC outlet pressure": 1.11,
+        "Physical core speed": -0.405
+      }
+    },
+    "baseline_report": "MAINTENANCE ADVISORY \u2014 Unit 8 at Cycle 72\nSeverity Level: LOW\n\nHEALTHY STATUS: This unit shows no signs of significant degradation. The estimated 123 remaining operational cycles place it well within normal service life expectations. Continue standard operating procedures.\n\nSensor Anomaly Analysis:\n  - Fan inlet temperature [0.68]: trending away from nominal operating conditions\n  - Bleed enthalpy: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.61)\n  - Corrected core speed: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.54)\n\nPrescribed Next Steps:\n  1. Maintain standard inspection and reporting schedule.\n  2. No corrective or preventive action is needed at this time.",
+    "proposed_report": "CONDITION REPORT \u2014 Unit 8, Operational Cycle 72\nCondition Category: LOW\n\nROUTINE UPDATE: This equipment continues to operate satisfactorily with approximately 123 cycles of projected remaining life. No anomalous trends have been identified. Routine monitoring protocols remain appropriate.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.68]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.61)\n  - Corrected core speed: displaying measurable drift from baseline readings (anomaly score: 0.54)\n\nMaintenance Recommendations:\n  1. Continue operating under normal procedures.\n  2. Next scheduled condition review will occur per the standard maintenance calendar.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 8, Operational Cycle 72\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 123 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.68), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.61), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.54), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 9,
+      "cycle": 38,
+      "rul_predicted": 114.7,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Corrected core speed",
+          0.6724752187728882
+        ],
+        [
+          "Fan inlet temperature",
+          0.6416763663291931
+        ],
+        [
+          "Static pressure at HPC outlet",
+          0.6411854028701782
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.122,
+        "LPC outlet temperature": -0.553,
+        "HPC outlet temperature": 0.287,
+        "HPC outlet pressure": -0.11,
+        "Physical core speed": -0.559
+      }
+    },
+    "baseline_report": "CONDITION REPORT \u2014 Unit 9, Operational Cycle 38\nSeverity Level: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 115 cycles. No immediate action is required. Standard monitoring continues.\n\nFlagged Sensor Channels:\n  - Corrected core speed [0.67]: showing moderate deviation from expected values\n  - Fan inlet temperature: trending away from nominal operating conditions (anomaly score: 0.64)\n  - Static pressure at HPC outlet [0.64]: exhibiting gradual but consistent departure from expected levels\n\nRecommended Actions:\n  1. Continue operating under normal procedures.\n  2. Next scheduled condition review will occur per the standard maintenance calendar.",
+    "proposed_report": "CONDITION REPORT \u2014 Unit 9, Operational Cycle 38\nRisk Classification: LOW\n\nHEALTHY STATUS: This unit shows no signs of significant degradation. The estimated 115 remaining operational cycles place it well within normal service life expectations. Continue standard operating procedures.\n\nSensor Anomaly Analysis:\n  - Corrected core speed [0.67]: exhibiting gradual but consistent departure from expected levels\n  - Fan inlet temperature: displaying measurable drift from baseline readings (anomaly score: 0.64)\n  - Static pressure at HPC outlet: showing moderate deviation from expected values (anomaly score: 0.64)\n\nMaintenance Recommendations:\n  1. No action items generated. Unit remains in good operational health.\n  2. Standard monitoring protocols are sufficient.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 9, Operational Cycle 38\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 115 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Corrected core speed: shows moderate deviation (0.67), suggesting early-stage wear\n  - Fan inlet temperature: shows moderate deviation (0.64), suggesting early-stage wear\n  - Static pressure at HPC outlet: shows moderate deviation (0.64), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 10,
+      "cycle": 115,
+      "rul_predicted": 122.7,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.6710495948791504
+        ],
+        [
+          "Bleed enthalpy",
+          0.6157019734382629
+        ],
+        [
+          "Corrected core speed",
+          0.5619234442710876
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -1.542,
+        "LPC outlet temperature": -0.663,
+        "HPC outlet temperature": -0.616,
+        "HPC outlet pressure": 0.522,
+        "Physical core speed": -0.285
+      }
+    },
+    "baseline_report": "EQUIPMENT ASSESSMENT \u2014 Engine 10, Cycle 115\nSeverity Level: LOW\n\nHEALTHY STATUS: This unit shows no signs of significant degradation. The estimated 123 remaining operational cycles place it well within normal service life expectations. Continue standard operating procedures.\n\nKey Sensor Observations:\n  - Fan inlet temperature [0.67]: trending away from nominal operating conditions\n  - Bleed enthalpy: displaying measurable drift from baseline readings (anomaly score: 0.62)\n  - Corrected core speed [0.56]: showing moderate deviation from expected values\n\nAction Items:\n  1. Maintain standard inspection and reporting schedule.\n  2. No corrective or preventive action is needed at this time.",
+    "proposed_report": "MAINTENANCE REPORT \u2014 Engine Unit 10, Cycle 115\nPriority: LOW\n\nHEALTHY STATUS: This unit shows no signs of significant degradation. The estimated 123 remaining operational cycles place it well within normal service life expectations. Continue standard operating procedures.\n\nFlagged Sensor Channels:\n  - Fan inlet temperature [0.67]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.62)\n  - Corrected core speed: displaying measurable drift from baseline readings (anomaly score: 0.56)\n\nAction Items:\n  1. No action items generated. Unit remains in good operational health.\n  2. Standard monitoring protocols are sufficient.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 10, Operational Cycle 115\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 123 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.67), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.62), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.56), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 11,
+      "cycle": 55,
+      "rul_predicted": 110.6,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Corrected core speed",
+          0.7011406421661377
+        ],
+        [
+          "Static pressure at HPC outlet",
+          0.6378685235977173
+        ],
+        [
+          "Bleed enthalpy",
+          0.6259624361991882
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -0.122,
+        "LPC outlet temperature": -0.02,
+        "HPC outlet temperature": 0.551,
+        "HPC outlet pressure": -0.269,
+        "Physical core speed": -0.996
+      }
+    },
+    "baseline_report": "EQUIPMENT ASSESSMENT \u2014 Engine 11, Cycle 55\nSeverity Level: LOW\n\nHEALTHY STATUS: This unit shows no signs of significant degradation. The estimated 111 remaining operational cycles place it well within normal service life expectations. Continue standard operating procedures.\n\nSensor Anomaly Analysis:\n  - Corrected core speed [0.70]: registering values well outside the normal envelope\n  - Static pressure at HPC outlet [0.64]: trending away from nominal operating conditions\n  - Bleed enthalpy: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.63)\n\nRecommended Actions:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "proposed_report": "MAINTENANCE ADVISORY \u2014 Unit 11 at Cycle 55\nRisk Classification: LOW\n\nNORMAL OPERATION: All monitored parameters for this unit are within expected ranges. With an estimated 111 cycles of remaining life, no maintenance action is necessary at this time.\n\nAnomalous Sensor Readings:\n  - Corrected core speed [0.70]: displaying measurable drift from baseline readings\n  - Static pressure at HPC outlet: exhibiting gradual but consistent departure from expected levels (anomaly score: 0.64)\n  - Bleed enthalpy [0.63]: showing moderate deviation from expected values\n\nMaintenance Recommendations:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 11, Operational Cycle 55\nPriority Classification: LOW\n\nEquipment health assessment indicates normal operation with 111 projected cycles remaining. No anomalous behavior detected. Routine inspection schedule is appropriate.\n\nSensor Analysis Summary:\n  - Corrected core speed: exhibits significant deviation (0.70), indicating potential component degradation\n  - Static pressure at HPC outlet: shows moderate deviation (0.64), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.63), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  },
+  {
+    "features": {
+      "engine_id": 12,
+      "cycle": 104,
+      "rul_predicted": 123.0,
+      "rul_true": 125.0,
+      "severity": "LOW",
+      "top_anomalous_sensors": [
+        [
+          "Fan inlet temperature",
+          0.6784396767616272
+        ],
+        [
+          "Bleed enthalpy",
+          0.6156002283096313
+        ],
+        [
+          "Corrected core speed",
+          0.5505784153938293
+        ]
+      ],
+      "sensor_summary": {
+        "Fan inlet temperature": -1.742,
+        "LPC outlet temperature": -0.602,
+        "HPC outlet temperature": -0.729,
+        "HPC outlet pressure": 1.132,
+        "Physical core speed": -0.495
+      }
+    },
+    "baseline_report": "MAINTENANCE ADVISORY \u2014 Unit 12 at Cycle 104\nRisk Classification: LOW\n\nNORMAL OPERATION: All monitored parameters for this unit are within expected ranges. With an estimated 123 cycles of remaining life, no maintenance action is necessary at this time.\n\nSensor Anomaly Analysis:\n  - Fan inlet temperature [0.68]: exhibiting gradual but consistent departure from expected levels\n  - Bleed enthalpy: showing moderate deviation from expected values (anomaly score: 0.62)\n  - Corrected core speed [0.55]: displaying measurable drift from baseline readings\n\nMaintenance Recommendations:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "proposed_report": "EQUIPMENT ASSESSMENT \u2014 Engine 12, Cycle 104\nCondition Category: LOW\n\nSTATUS: This engine unit is operating within normal parameters. The estimated remaining useful life is 123 cycles. No immediate action is required. Standard monitoring continues.\n\nFlagged Sensor Channels:\n  - Fan inlet temperature [0.68]: trending away from nominal operating conditions\n  - Bleed enthalpy: displaying measurable drift from baseline readings (anomaly score: 0.62)\n  - Corrected core speed: showing moderate deviation from expected values (anomaly score: 0.55)\n\nRecommended Actions:\n  1. Continue routine monitoring.\n  2. No immediate intervention required.",
+    "reference_report": "EQUIPMENT CONDITION ASSESSMENT \u2014 Unit 12, Operational Cycle 104\nPriority Classification: LOW\n\nThis unit is operating within expected parameters with approximately 123 cycles of estimated remaining useful life. All monitored indicators are within acceptable ranges. Standard monitoring protocols are sufficient at this time.\n\nSensor Analysis Summary:\n  - Fan inlet temperature: shows moderate deviation (0.68), suggesting early-stage wear\n  - Bleed enthalpy: shows moderate deviation (0.62), suggesting early-stage wear\n  - Corrected core speed: shows moderate deviation (0.55), suggesting early-stage wear\n\nRecommended Course of Action:\n  1. Continue standard monitoring and reporting cadence.\n  2. No maintenance action required at this time."
+  }
+]
