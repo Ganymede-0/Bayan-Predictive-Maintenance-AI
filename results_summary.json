@@ -1,0 +1,74 @@
+{
+  "project": "Bayan",
+  "course": "ARTI 557 \u2014 Selected Topics in AI",
+  "university": "Imam Abdulrahman Bin Faisal University",
+  "encoder_results": {
+    "baseline_lstm": {
+      "mae": "10.708195",
+      "rmse": "14.8211565"
+    },
+    "proposed_transformer": {
+      "mae": "9.74111",
+      "rmse": "13.737817"
+    }
+  },
+  "nlg_results": {
+    "baseline_template": {
+      "ROUGE-L": 0.4067397721910564,
+      "BLEU-4": 0.19841662251755982,
+      "BERTScore-F1": 0.9161622524261475
+    },
+    "proposed_llm": {
+      "ROUGE-L": 0.4232694624672701,
+      "BLEU-4": 0.194963211813483,
+      "BERTScore-F1": 0.9171977043151855
+    }
+  },
+  "ablation_results": {
+    "Proposed (full system)": {
+      "ROUGE-L": 0.42403185731468057,
+      "BLEU-4": 0.19689371142059917,
+      "BERTScore-F1": 0.9171755909919739
+    },
+    "Abl 1: Zero-shot (no FT)": {
+      "ROUGE-L": 0.17148019208519083,
+      "BLEU-4": 0.012380254039392889,
+      "BERTScore-F1": 0.8480965495109558
+    },
+    "Abl 2: LSTM encoder + LLM": {
+      "ROUGE-L": 0.3017443380116389,
+      "BLEU-4": 0.12728223118068743,
+      "BERTScore-F1": 0.9030640125274658
+    },
+    "Abl 3: No anomaly scores": {
+      "ROUGE-L": 0.39373328835237464,
+      "BLEU-4": 0.18922991526181118,
+      "BERTScore-F1": 0.9112409353256226
+    },
+    "Baseline (template only)": {
+      "ROUGE-L": 0.404738325858741,
+      "BLEU-4": 0.19686282186819323,
+      "BERTScore-F1": 0.9159809350967407
+    }
+  },
+  "config": {
+    "dataset": "NASA C-MAPSS FD001",
+    "window_size": 30,
+    "max_rul": 125,
+    "lstm_hidden": 64,
+    "tf_d_model": 128,
+    "tf_nhead": 4,
+    "llm_model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "llm_epochs": 3
+  },
+  "fixes_applied": [
+    "Dedicated pad token (pad \u2260 eos)",
+    "Loss masking via DataCollatorForSeq2Seq (label_pad_token_id=-100)",
+    "Proper chat template (tokenizer.apply_chat_template)",
+    "Separate reference set for evaluation",
+    "Adapter toggle for zero-shot ablation",
+    "Gradient checkpointing disabled before inference"
+  ]
+}
